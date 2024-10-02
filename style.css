@@ -1,0 +1,25 @@
+header {
+    grid-area: cabe;
+    background-image: linear-gradient(to right, rgb(138, 213, 248), rgb(54, 135, 255));
+    position: relative;
+}
+body{
+    display: grid;
+    grid-template-areas:
+    " cabe cabe cabe cabe "
+    " brac prin prin prin "
+    " roda roda roda roda ";
+    grid-template-columns: 180px auto;
+    grid-template-rows: 210px auto 200px;
+}
+.logo{
+    border-radius: 10%;
+    transition: 1s;
+    width: 8%;
+    display: flex;
+}
+nav li{
+    display: inline;
+    position:relative;
+    align-items: center;
+}
