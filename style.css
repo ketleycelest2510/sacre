@@ -1,25 +1,48 @@
-header {
-    grid-area: cabe;
-    background-image: linear-gradient(to right, rgb(138, 213, 248), rgb(54, 135, 255));
-    position: relative;
-}
+:root{
+    --cor_fundo: rgb(41, 181, 206);
+    --cor_botao: rgb(204, 238, 252);
+ }
+ *{
+    margin: 0%;
+    padding: 0%;
+ }
 body{
     display: grid;
     grid-template-areas:
-    " cabe cabe cabe cabe "
-    " brac prin prin prin "
-    " roda roda roda roda ";
+    " cabe cabe cabe "
+    " prin prin prin "
+    " roda roda roda ";
     grid-template-columns: 180px auto;
     grid-template-rows: 210px auto 200px;
+    background-color: var(--cor_fundo);
+    border: var(--cor_borda) solid 2px;
+ 
 }
-.logo{
-    border-radius: 10%;
-    transition: 1s;
-    width: 8%;
-    display: flex;
+main{
+    grid-area: prin;
+    border: purple solid 2px;
 }
-nav li{
+header{
+    grid-area: cabe;
+    background-color: rgb(38, 162, 219);
+    width: 110%;
+}
+footer{
+    grid-area: roda;
+}
+.caixa{
+    background-color: var(--cor_botao);
+}
+div ul{
     display: inline;
-    position:relative;
+    position: absolute;
     align-items: center;
-}
+    margin-top: 4.5%;
+    margin-left: 55%;
+ }
+ .logo{
+    width: auto;
+    height: 80%;
+    padding: 6px;
+    border-radius: 30px;
+ }
