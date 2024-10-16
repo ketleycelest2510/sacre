@@ -1,3 +1,19 @@
+main{
+    grid-area: prin;
+    border: purple solid 2px;
+    width: 110%;
+    height: 110%;
+}
+header{
+    grid-area: cabe;
+    background-color: rgb(38, 162, 219);
+    width: 110%;
+}
+footer{
+    grid-area: roda;
+    background-color: rgb(38, 162, 219);
+    width: 110%;
+}
 :root{
     --cor_fundo: rgb(41, 181, 206);
     --cor_botao: rgb(204, 238, 252);
@@ -18,18 +34,6 @@ body{
     border: var(--cor_borda) solid 2px;
  
 }
-main{
-    grid-area: prin;
-    border: purple solid 2px;
-}
-header{
-    grid-area: cabe;
-    background-color: rgb(38, 162, 219);
-    width: 110%;
-}
-footer{
-    grid-area: roda;
-}
 .caixa{
     background-color: var(--cor_botao);
 }
@@ -40,9 +44,10 @@ div ul{
     margin-top: 4.5%;
     margin-left: 55%;
  }
- .logo{
+ 
+.logo{
     width: auto;
-    height: 80%;
+    height: 200px;
     padding: 6px;
     border-radius: 30px;
- }
+}
