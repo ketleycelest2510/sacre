@@ -2,7 +2,6 @@ main{
     grid-area: prin;
     border: purple solid 2px;
     width: 110%;
-    height: 110%;
 }
 header{
     grid-area: cabe;
@@ -47,7 +46,7 @@ div ul{
  
 .logo{
     width: auto;
-    height: 200px;
+    height: 120px;
     padding: 6px;
     border-radius: 30px;
 }
